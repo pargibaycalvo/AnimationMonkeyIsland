@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     var volume = (1 - Math.log((MAX_VOLUME - soundVolume).toDouble()) / Math.log(MAX_VOLUME.toDouble())).toFloat()
 
 
+    //Nos inicia la musica del juego con sus imagenes en svg y gif
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -34,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         }, 1000)
     }
 
+    //boton que nos manda al main2
     fun onClick(v: View) {
         when (v.getId()) {
             R.id.button -> {

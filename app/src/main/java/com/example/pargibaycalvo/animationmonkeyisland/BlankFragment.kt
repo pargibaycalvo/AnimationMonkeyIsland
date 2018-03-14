@@ -15,6 +15,7 @@ class BlankFragment : Fragment() {
 
     var m2: String=""
 
+    //Metodos necesarios para realizar los cambios necesarios a la main2 (companion object)
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         return inflater!!.inflate(R.layout.fragment_blank, container, false)
