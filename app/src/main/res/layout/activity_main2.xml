@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mundo1"
+    tools:context="com.example.pargibaycalvo.animationmonkeyisland.Main2Activity">
+
+
+    <FrameLayout
+        android:id="@+id/lala"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="128dp"
+        android:layout_height="105dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/mono"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView3"
+        android:layout_width="45dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="252dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/mono1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="16dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView4"
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="300dp"
+        android:src="@drawable/guysbrush"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="300dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView5"
+        android:layout_width="61dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="164dp"
+        android:src="@drawable/lechuck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView6"
+        android:layout_width="78dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="244dp"
+        android:src="@drawable/stan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="244dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView7"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="252dp"
+        android:layout_marginEnd="96dp"
+        android:src="@drawable/naufrago"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="96dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/moneda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

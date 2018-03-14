@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AnimationMonkeyIsland 6150</string>
+    <string name="title_activity_main2">Mapa 1</string>
+    <string name="title_activity_main3">Mapa 2</string>
+    <string name="title_activity_main4">Mapa 3</string>
+    <string name="title_home">Piratas</string>
+    <string name="title_dashboard">Barco</string>
+    <string name="title_notifications">LeChuck</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">MOSTRANDO GIFS DESDE BLANKFRAGMENT A MAIN2</string>
+</resources>
